@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CloudAlloc Research Prototype</title>
+  <style>
+    body { margin: 0; font-family: system-ui, sans-serif; background: #f4f7fb; color: #14213d; }
+    main { max-width: 850px; margin: 5rem auto; padding: 2rem; }
+    article { background: white; border-radius: 14px; padding: 2rem; box-shadow: 0 8px 30px #14213d14; }
+    .badge { display: inline-block; padding: .35rem .7rem; border-radius: 99px; background: #dff3e4; color: #176b35; font-weight: 650; }
+    code { background: #edf1f7; padding: .15rem .35rem; border-radius: 4px; }
+    li { margin: .55rem 0; }
+  </style>
+</head>
+<body>
+<main>
+  <article>
+    <span class="badge">30% foundation milestone</span>
+    <h1>Predictive Cloud Resource Allocation</h1>
+    <p>The data, database, EDA, and persistence-baseline foundation is implemented. Advanced forecasting, allocation-policy evaluation, recommendations, and the final dashboard are intentionally reserved for later milestones.</p>
+    <h2>Available now</h2>
+    <ul>
+      <li><a href="/api/health"><code>GET /api/health</code></a></li>
+      <li><a href="/api/workloads/summary"><code>GET /api/workloads/summary</code></a></li>
+      <li>Deterministic Google trace preprocessing and manifest validation</li>
+      <li>Idempotent database ingestion, EDA, and next-interval persistence forecast</li>
+    </ul>
+  </article>
+</main>
+</body>
+</html>
+

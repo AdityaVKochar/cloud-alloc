@@ -1,0 +1,14 @@
+{
+  "schema_version": "cloudalloc-normalized-v1",
+  "dataset_version": "synthetic-fixture-6c5580d62048",
+  "source": "deterministic synthetic fixture; not research evidence",
+  "cell": "fixture",
+  "data_file": "synthetic_workloads.parquet",
+  "sha256": "6c5580d62048a37756956b8f6f659c3580c717cd5ad092b991a48a1aa872a979",
+  "row_count": 143,
+  "task_count": 4,
+  "start_time": 0,
+  "end_time": 10800000000,
+  "selection_rule": "four generated tasks with 36 five-minute intervals",
+  "units": "normalized resource capacity"
+}
